@@ -22,7 +22,7 @@ BreakBeforeTernaryOperators: true
 BreakConstructorInitializers: AfterColon
 BreakInheritanceList: AfterColon
 BreakStringLiterals: true
-ColumnLimit: 80
+ColumnLimit: 120
 CompactNamespaces: false
 Cpp11BracedListStyle: true
 EmptyLineAfterAccessModifier: Never
@@ -51,14 +51,14 @@ SpaceBeforeCaseColon: false
 SpaceBeforeCpp11BracedList: true
 SpaceBeforeCtorInitializerColon: true
 SpaceBeforeInheritanceColon: true
-SpaceBeforeParens: Never
+SpaceBeforeParens: ControlStatements
 SpaceBeforeRangeBasedForLoopColon: true
 SpaceBeforeSquareBrackets: false
 SpaceInEmptyBlock: false
 SpaceInEmptyParentheses: false
 SpacesInAngles: Never
 SpacesInCStyleCastParentheses: false
-SpacesInConditionalStatement: false
+SpacesInConditionalStatement: true
 SpacesInParentheses: false
 SpacesInSquareBrackets: false
 Standard: c++20
